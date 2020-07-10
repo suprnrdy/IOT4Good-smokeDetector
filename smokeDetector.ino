@@ -5,9 +5,9 @@
 
 
 // LoraWAN Defines
-const char *devEui = "";
-const char *appEui = "";
-const char *appKey = "";
+const char *devEui = "FILL_ME_IN";
+const char *appEui = "FILL_ME_IN";
+const char *appKey = "FILL_ME_IN";
 // Depending on the LoRa frequency plan and data rate used, the maximum payload varies. 
 // It's safe to send up to 51 bytes of payload.
 CayenneLPP lpp(51);
